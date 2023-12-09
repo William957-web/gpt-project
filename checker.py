@@ -1,0 +1,6 @@
+f=open('correct.txt')
+print(len(f.readlines()))
+f=open('wrong.txt')
+print(len(f.readlines()))
+f=open('total.txt')
+print(len(f.readlines()))
